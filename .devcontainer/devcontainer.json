@@ -7,7 +7,9 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"Nuxtr.nuxt-vscode-extentions"
+				"Nuxtr.nuxt-vscode-extentions",
+				"mhutchie.git-graph",
+				"eamodio.gitlens"
 			]
 		}
 	},
