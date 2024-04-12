@@ -1,5 +1,5 @@
 name = "0g0-blog"
-pages_build_output_dir = "./.output"
+pages_build_output_dir = "./.output/public"
 
 [vars]
 YARN_VERSION = "1"
