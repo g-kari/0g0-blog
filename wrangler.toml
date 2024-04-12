@@ -3,3 +3,4 @@ pages_build_output_dir = "./output"
 
 [vars]
 YARN_VERSION = "1"
+NODE_VERSION = "18.20.0"
