@@ -1,6 +1,7 @@
 {
   "name": "nuxt-app",
   "type": "module",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "nuxt build",
@@ -14,8 +15,7 @@
     "@material/web": "^1.4.0",
     "nuxt": "^3.11.2",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "@nuxtjs/dayjs": "^1.4.1"
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.0.2",
@@ -26,8 +26,10 @@
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "@typescript-eslint/parser": "^7.6.0",
+    "@unocss/reset": "^0.59.1",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/language-plugin-pug": "^2.0.11",
+    "dayjs-nuxt": "^2.1.9",
     "eslint": "^8.0.1",
     "eslint-config-standard-with-typescript": "^43.0.1",
     "eslint-plugin-import": "^2.25.2",
@@ -36,6 +38,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-tailwindcss": "^3.15.1",
     "eslint-plugin-vue": "^9.24.1",
+    "floating-vue": "^5.2.2",
     "globals": "^15.0.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.13",
@@ -44,6 +47,7 @@
     "tailwindcss": "^3.4.3",
     "typescript": "*",
     "typescript-eslint": "^7.6.0",
+    "unocss": "^0.59.1",
     "vite": "^5.2.8"
   }
 }

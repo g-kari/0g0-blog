@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/content",
-    // '@nuxtjs/dayjs'
+    'dayjs-nuxt'
   ],
 })
 
