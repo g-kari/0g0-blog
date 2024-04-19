@@ -7,7 +7,9 @@
     "deploy": "$npm_execpath run build && wrangler pages deploy dist"
   },
   "dependencies": {
+    "@jridgewell/sourcemap-codec": "^1.4.15",
     "@mdx-js/rollup": "^3.0.1",
+    "@rollup/plugin-inject": "^5.0.5",
     "hono": "^4.2.5",
     "honox": "^0.1.15",
     "remark-frontmatter": "^5.0.0",

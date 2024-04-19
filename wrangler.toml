@@ -1,6 +1,6 @@
 name = "0g0-blog"
 pages_build_output_dir = "./dist"
-
+YARN_VERSION=1
 # [vars]
 # MY_VAR = "my-variable"
 
