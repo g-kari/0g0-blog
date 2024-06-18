@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.4.1",
-    "shiki": "^1.4.0"
+    "shiki": "^1.7.0"
   }
 }
